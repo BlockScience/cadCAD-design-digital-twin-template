@@ -16,17 +16,6 @@ and use them as arguments to the `cadCAD_tools.execution.easy_run` method. Refer
 ├── LICENSE
 ├── README.md
 ├── SPEC.md
-├── app: The `streamlit` app
-│   ├── assets
-│   │   ├── icon.png
-│   │   └── logo.png
-│   ├── chart.py
-│   ├── const.yaml
-│   ├── description.py
-│   ├── glossary.py
-│   ├── main.py
-│   ├── model.py
-│   └── utils.py
 ├── prey_predator_model: the `cadCAD` model as encapsulated by a Python Module
 │   ├── __init__.py
 │   ├── __main__.py
@@ -36,15 +25,8 @@ and use them as arguments to the `cadCAD_tools.execution.easy_run` method. Refer
 │   ├── structure.py: The PSUB structure
 │   └── types.py: Types used in model
 ├── notebooks: Notebooks for aiding in development
-├── profiling
-│   ├── output.png
-│   ├── output.pstats
-│   └── profile_default_run.sh
 ├── requirements-dev.txt: Dev requirements
 ├── requirements.txt: Production requirements
-└── tests: Test scenarios
-    ├── __init__.py
-    └── test_scenario.py
 ```
 
 ## What is cadCAD
