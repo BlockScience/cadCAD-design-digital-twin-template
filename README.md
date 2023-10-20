@@ -8,14 +8,6 @@ system parameters & initial state.
     - To perform a multiple run, pass `python -m prey_predator_model -e`
 - Option 2 (cadCAD-tools easy run method): Import the objects at `prey_predator_model/__init__.py`
 and use them as arguments to the `cadCAD_tools.execution.easy_run` method. Refer to `prey_predator_model/__main__.py` to an example.
-- Option 3 (Streamlit, local)
-    - `streamlit run app/main.py`
-- Option 4 (Streamlit, cloud)
-    1. Fork the repo
-    2. Go to https://share.streamlit.io/ and log in
-    3. Create an app for the repo pointing to `app/main.py`
-    4. **Make sure to use Python 3.9 on the Advanced Settings!**
-    5. Wait a bit and done!
 
 ## File structure
 
